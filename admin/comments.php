@@ -65,7 +65,7 @@
                 <input name="mail" type="email" id="new-review-email" value="<?php $this->remember('mail'); ?>" placeholder="Email*" required>
             </div>
             <div class="karigor-form-input karigor-form-input-three">
-                <input name="url" type="email" id="new-review-email" value="<?php $this->remember('url'); ?>" placeholder="Url">
+                <input name="url" type="text" id="new-review-url" value="<?php $this->remember('url'); ?>" placeholder="Url">
             </div>
             <?php endif; ?>
             <div class="karigor-form-input">
