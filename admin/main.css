@@ -7,7 +7,7 @@
 .ds-avatar img {-webkit-transition:.4s all ease-in-out;-moz-transition:.4s all ease-in-out;-o-transition:.4s all ease-in-out;-ms-transition:.4s all ease-in-out;transition:.4s all ease-in-out}
 .ds-post-main:hover .ds-avatar img {-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}
 .ds-comment-body {z-index:1;position:relative;left:0;background: #FFF;padding:15px 15px 15px 47px;color:#696A52; border-radius:5px; box-shadow:0 1px 2px rgba(0,0,0,.15), 0 1px 0 rgba(255,255,255,.75) inset;}
-
+.ds-comment-body p{word-break: break-all;word-wrap: break-word;}
 .comment-reply{float: right;}
 .karigor-form-inner {
   display: -webkit-box;
