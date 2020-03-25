@@ -41,7 +41,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <?php $this->widget('Widget_Comments_Recent')->to($comments); ?>
 <?php while($comments->next()): ?>
 <li>
-<span>3.14</span>
+<span><?php $comments->date("m.d"); ?></span>
 <a href="<?php $comments->permalink(); ?>" class="title"><?php $comments->author(false); ?></a>:
 <?php $comments->excerpt(35, '...'); ?>
 </li>
