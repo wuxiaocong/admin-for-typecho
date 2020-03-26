@@ -4,7 +4,7 @@
  * 
  * @package admin
  * @author 吴尼玛
- * @version 1.0
+ * @version 1.1
  * @link https://saikou.net/
  */
 
