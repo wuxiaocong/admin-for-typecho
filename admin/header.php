@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="<?php $this->options->siteUrl(); ?>admin/css/grid.css?v=17.10.30">
 <link rel="stylesheet" href="<?php $this->options->siteUrl(); ?>admin/css/style.css?v=17.10.30">
 <link rel="stylesheet" href="<?php $this->options->themeUrl(); ?>main.css?v=16">
-<?$this->header('generator=&template=&pingback=&xmlrpc=&wlw=');?>
+<?php $this->header('generator=&template=&pingback=&xmlrpc=&wlw=');?>
    </head>
     <body>
 <div class="typecho-head-nav clearfix" role="navigation">
